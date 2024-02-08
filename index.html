@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Shoping<span> Cart...</span></a>
+        <div class="bx bx-menu" id="menu-icon" onclick="openmenu()"></div>
+        <nav class="navbar">
+            <a  href="#homes">Home</a>
+            <a  href="#cloths">Cloth</a>
+            <a  href="#blogs">Blog</a>
+            <a  href="#reviews">Review</a>
+            <a  href="#contacts">Contact</a>
+            <button>Log In</button>
+        </nav> 
+    </header>
+
+    <!--home section start-->
+
+    <section class="home" id="homes">
+        <div class="h-container">
+            <div class="h-detail">
+                <h1>Great Deals Exciting Offers</h1>
+                <h2>Save Upto 40% Off</h2>
+                <p>Loreum lipsum  dolor  sit amet  consctuar adipisicing  this is dummy paragrap which is taken from loreum lipsum website.</p>
+                <button>Explore</button>
+            </div>
+            <img src="main.png" >
+        </div>
+    </section>
+
+    <!--cloths section start-->
+    <section class="cloth" id="cloths">
+        <p>Treanding Women T-Shirt</p>
+    <div class="cloth-container">
+        <div class="c-card">
+            <img src="g1.jpeg">
+            <div class="c-detail">
+                <h3> $10 Only</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="c-card">
+            <img src="g2.jpeg">
+                <div class="c-detail">
+                    <h3> $10 Only</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Card</button>
+                </div>
+            </div>
+            <div class="c-card">
+                <img src="g3.jpeg">
+                    <div class="c-detail">
+                        <h3> $10 Only</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <button>Add to Card</button>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="g4.jpeg">
+                        <div class="c-detail">
+                            <h3> $10 Only</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <button>Add to Card</button>
+                        </div>
+                </div>
+     </div>
+    </section>
+
+    <!--blog section start-->
+    <section class="blog" id="blogs">
+        <p>Blogs</p>
+        <div class="b-container">
+            <div class="b-card">
+                <img src="b1.jpeg">
+                <div class="b-detail">
+                    <p>Loreum lipsum  dolor  sit amet  consctuar adipisicing  this is dummy paragrap which is taken from loreum lipsum website.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <img src="b2.jpeg">
+                <div class="b-detail">
+                    <p>Loreum lipsum  dolor  sit amet  consctuar adipisicing  this is dummy paragrap which is taken from loreum lipsum website.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--review section start-->
+
+     <section class="review" id="reviews">
+        <p>Customer Review</p>
+        <div class="r-container">
+            <div class="r-detail">
+                <img src="M1.jpeg">
+                <p>Loreum lipsum  dolor  sit amet  consctuar adipisicing  this is dummy paragrap which is taken from loreum lipsum website.</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="r-detail">
+                <img src="g2.jpeg">
+                <p>Loreum lipsum  dolor  sit amet  consctuar adipisicing  this is dummy paragrap which is taken from loreum lipsum website.</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="r-detail">
+                <img src="M2.jpeg">
+                <p>Loreum lipsum  dolor  sit amet  consctuar adipisicing  this is dummy paragrap which is taken from loreum lipsum website.</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+     </section>
+
+     <!--contact section start-->
+     <section class="contact" id="contacts">
+        <p>Get In Touch</p>
+        <div class="form">
+            <diV class="form-detail">
+                <label>Username</label><br></br>
+                <input type="text" id="username"  name="fname" placeholder="enter your name"><br></br>
+                <label>Password</label><br></br>
+                <input type="text" id="password" name="fname" placeholder="enter your password"><br></br>
+                <button id="submit">Submit</button>
+            </diV>
+        </div>
+        <div class="footer">
+                <div class="f-detail">
+                    <h5>About Us</h5>
+                    <p>Loreum lipsum  dolor  sit amet  consctuar adipisicing  this is dummy paragrap which is taken from loreum lipsum website.</p>
+                </div>
+                <div class="f-detail">
+                    <h5>Product</h5>
+                    <p>Our Design</p>
+                    <p>Theme</p>
+                    <p>Quality</p>
+                    <p>Best Price</p>
+                </div>
+                <div class="f-detail">
+                    <h5>Quality</h5>
+                    <p>Focus</p>
+                    <p>Customer </p>
+                    <p>Review</p>
+                    <p>Offer</p>
+                </div>
+                <div class="f-detail">
+                    <h5>Address</h5>
+                    <p>jharkhand, palamu, india,822110</p>
+                </div>
+           
+        </div>
+     </section>
+</body>
+</html>

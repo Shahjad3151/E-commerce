@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   
+    font-family:helvatica;
+    background-color:rgba(0, 128, 109, 0.824);
+
+}
+.header{
+    width:100%;
+    height: 80px;
+    font-family:helvatica;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    z-index: 100%;
+    position:fixed;
+    width: 100%;
+    top: 0%;
+    padding-bottom: 20px;
+    
+}
+.logo{
+    font-family:helvatica;
+    font-size: 50px;
+    margin-left: 50px;
+    color: black;
+    font-weight: 900;
+    position: fixed;
+    text-decoration: none;
+}
+span{
+    color:purple;
+}
+.navbar{
+    margin-right:40px ;
+    
+    
+}
+.navbar a{
+    font-family:helvatica;
+    font-size: 27px;
+    font-weight: 450;
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+   
+}
+.navbar a:hover {
+    color: yellow;
+    font-weight: 700;
+}
+.navbar button{
+    width: 68px;
+    height: 35px;
+    font-size: 18px;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius:0.5rem;
+}
+.navbar button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.home {
+    margin-top:78px;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 50px;
+   
+}
+.h-container{
+    margin-top:78px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin-left: 200px;
+    gap: 250px;
+  
+}
+.h-detail{
+    padding-top: 60px;
+   
+}
+.h-detail h1{
+    font-family:helvatica;
+    font-size: 45px;
+    line-height: 2;
+   
+    
+}
+.h-detail h2{
+    font-family:helvatica;
+    font-size: 40px;
+    line-height: 2;
+    color: yellow;
+}
+.h-detail p{
+    font-family:helvatica;
+    font-size: 30px;
+    line-height: 1.5;
+    color: white;
+    width: 700px;
+}
+button{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    color: black;
+    background-color:red;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius:1rem;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: transparent;
+
+}
+.h-container img{
+    width: 600px;
+    height: 700px;
+}
+
+/* cloth section start  */
+
+.cloth{
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+   
+}
+.cloth p{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: helvetica;
+    padding-top: 30px;
+}
+.c-card img{
+    height: 460px;
+    width: 360px;
+    line-height: 2;
+    display: block;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    
+}
+.c-card{
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    transition:0.6s; 
+    height: 580px;
+    width: 360px;
+    background-color: wheat;
+    border-radius: 10px;
+   
+}
+.c-card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+
+}
+.cloth-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    gap:30px;
+    margin-left: 120px;
+    margin-top: 70px;
+   
+}
+.c-detail{
+    padding-left: 50px;
+}
+.c-detail h3{
+    font-size: 35px;
+    font-family: helvetica;
+    line-height: 1;
+   
+}
+.c-detail i{
+    color: yellow;
+    font-size: 25px;
+}
+.c-detail button{
+    margin-left: 20px;
+}
+/* blog section start  */
+
+.blog{
+    margin-top: 55px;
+    padding-top: 50px;
+    width: 100%;
+    height: 900px;
+    
+}
+.blog p{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: helvetica;
+    padding-top: 50px;
+   
+}
+.b-container{
+    display: grid;
+    grid-template-columns: 620px 620px ;
+    gap:100px;
+    margin-top: 140px;
+    margin-left: 300px;
+    
+}
+.b-card img{
+    height: 460px;
+    width: 360px;
+    line-height: 3;
+    display: block;
+    border-radius: 30px;
+    padding: 20px 0px 20px 20px;
+    
+}
+.b-card{
+    display: flex;
+    margin-inline: 30px;
+    transition:0.6s; 
+    width: 600px;
+    height: 470px;
+    background-color: wheat;
+    border-radius: 10px;
+   
+}
+.b-card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+
+}
+.b-detail{
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.b-detail p{
+    font-size: 20px;
+    font-family: helvetica;
+    
+}
+
+/* Review section start  */
+.review{
+    width: 100%;
+    height: 900px;
+    
+}
+
+.review p{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: helvetica;
+    padding-top: 110px;
+}
+.r-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    gap:100px;
+    margin-top: 100px;
+    margin-left: 300px;
+    
+}
+.r-detail img{
+    height: 260px;
+    width: 250px;
+    border-radius: 50%;
+    
+}
+.r-detail{
+    transition:0.6s; 
+    width: 400px;
+    height: 480px;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 30px 30px 0px 70px;
+    transition:0.6s; 
+   
+}
+.r-detail p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: helvetica;
+}
+.r-detail:hover{
+    transform: scale(1.1);
+}
+
+/* contact section start  */
+.contact{
+    width: 100%;
+    height: 900px;
+   
+}
+.contact p{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: helvetica;
+    padding-top: 100px;
+}
+.form{
+    margin-left: 600px;
+    font-family: helvetica;
+    margin-top: 30px;
+    border: 3px solid black;
+    width: 750px;
+    height: 350px;
+    
+}
+.form-detail{
+    padding: 30px 0px 20px 30px;
+}
+.form-detail input{
+    width: 600px;
+    height: 40px;
+    padding-left: 30px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.form-detail label{
+    font-size: 30px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin-top: 80px;
+    margin-left: 250px;
+    gap: 100px;
+}
+.f-detail{
+    width: 300px;
+    height: 300px;
+    
+}
+.f-detail h5{
+    font-size: 30px;
+    font-family: helvetica;
+    text-align: center;
+    
+}
+.f-detail p{
+    font-size: 20px;
+    font-family: helvetica;
+    padding-top: 20px;
+    text-align: center;
+  
+}
